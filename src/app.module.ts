@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { LocalModule } from './local/local.module';
+import { LocalModule } from './testapi/local.module';
 import { ConfigModule } from './config/config.module';
 import { ConnectionsModule } from './connections/connections.module';
 

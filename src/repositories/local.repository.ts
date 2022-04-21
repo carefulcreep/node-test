@@ -4,7 +4,7 @@ import { validate as isValidUUID } from 'uuid';
 
 import Venue from '../entitites/entry.entity';
 import { NotFoundException } from '@nestjs/common';
-import { VenuePatchResponseDto } from '../local/dto/venue.patch.response.dto';
+import { VenuePatchResponseDto } from '../testapi/dto/venue.patch.response.dto';
 
 @EntityRepository(Venue)
 export class LocalRepository extends Repository<any> {
